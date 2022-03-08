@@ -20,6 +20,8 @@ body {
     font-size: 48px;
 }
 
+/* This changes the text color of the page header */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -40,6 +42,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Color of the hyperlink text */
 
 a {
     color: #ffffff;
@@ -86,6 +90,8 @@ p {
     background-color: #2589bd;
 }
 
+/* grouped similar classes */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +107,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* grouped similar classes again */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;

@@ -20,6 +20,8 @@ body {
     font-size: 48px;
 }
 
+/* This changes the text color of the page header */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,6 +43,8 @@ body {
     margin-left: 25px;
 }
 
+/* Color of the hyperlink text */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,7 +58,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -86,6 +90,8 @@ p {
     background-color: #2589bd;
 }
 
+/* Grouped benefit classes together */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +107,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Grouped similar classes together again */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
