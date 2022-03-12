@@ -8,46 +8,51 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* This changes the text color of the page header */
+/* This changes the text color of "seo" the company's name */
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+
+
+ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
+    margin-left: 25px;
 }
 
-.header div ul li {
+li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Color of the hyperlink text */
+/* Hyperlink text color */
 
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
+}
+
+h2 {
+    color: #d9dcd6;
 }
 
 p {
@@ -97,7 +102,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -110,7 +115,7 @@ p {
 
 /* Grouped similar classes together again */
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,14 +124,16 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer elements*/
 
 .footer {
     padding: 30px;
@@ -138,3 +145,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
