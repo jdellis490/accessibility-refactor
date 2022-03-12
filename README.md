@@ -6,4 +6,4 @@ I performed this code refactor because online communication is very important an
 
 ## Usage
 
-To use this project one must simply visit the url:
+To use this project one must simply visit the url: https://jdellis490.github.io/hw-accessibility-refactor/
